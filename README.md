@@ -1,41 +1,36 @@
-# **Predição de Câncer utilizando Machine Learning e Bioinformática**
+# 🏥**Predição de Câncer utilizando Machine Learning e Bioinformática**
 
 ![Badge](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-blue)
 ![Badge](https://img.shields.io/badge/Bioinformática-Genômica-green)
 
-## **Descrição**
-Este projeto demonstra como os modelos de machine learning podem ser aplicadas na análise de dados
-bioinformáticos para prever o diagnóstico de câncer. Utilizando dados simulados de exepressão gênica
-e variáveis clínicas, foi desenvolvido um modelo de classificação baseado em Random Forest, com excelente 
-desempenho na separação entre pacientes diagnosticados com e sem câncer.
-O projeto explora desde a análise exploratória dos dados até a avaliação final do modelo, ilustrando o papel
- da ciência de dados e bioinformática no avanço do diagnóstico médico.
+## 🔍**Introdução**
+Este projeto utiliza **Machine Learning** para a predição de câncer com base em dados genéticos e históricos clínicos dos pacientes. Foi desenvolvido um modelo Random Forest para realizar a classificação, garantindo alta precisão na detecção da doença.
 
- ## **Objetivo**
- Analisar dados simulados de expressão gênica e prever o diagnóstico de câncer com base em um modelo de 
- machine learning.
+---
 
- ---
-
- ## **Estrutura**
- - **1. Análise dos Dados:**
-   - Transformação e limpeza dos dados.
-   - Análise exploratória para entender correlações e padrões.
-  
-- **2. Construção do Modelo**
-    - Treinamento com o algoritmo **Random Forest**.
-    - Uso de técnicas de balanceamento para classe alvo.
+ ## 📌**Objetivo do Projeto**
+ ✅ Aplicar técnicas de pré - processamento, com o intuito de deixar os dados prontos para o desenvolvimento e implementação do modelo. 
+ ✅ Realizar análise exploratória dos dados para identificar padrões nos dados e correlações entre as features presentes no conjuntos de dados.
+ ✅ Construir um modelo de Random Forest para predição do câncer.
+ ✅ Avaliar o desempenho do modelo e interpretar os resultados.
  
-- **3. Avaliação**
-    - Métricas utilziadas: Curva ROC, AUC, F1-score, precisão e recall.
-    - O modelo apresentou resultados robustos, alcançando uma **AUC = 1.0**.
+ ---
+ 
+ ## 🛠️**Tecnologias Utilizadas**
+🔹Linguagem: Python
+
+🔹`Bibliotecas Principais:`
+ * Pandas e NumPy (Manipulação de dados)
+ * Matplotlib e Seaborn (Visualizações)
+ * Scikit - Learn (Machine Learning)
+ * Imbalancead - learn (Balanceamento de classes - SMOTE)
  
 ---
 
-## **Resultados**
-- **Curva ROC/AUC:** O modelo conseguiu separar perfeitamente as classes.
-- **Métricas:**  
-  - Precisão: 1.0  
-  - Recall: 1.0  
-  - F1-Score: 1.0
+## 📂**Estrutura do Projeto**
+|- README.MD (Epílogo Projeto)
+
+|- Base de Dados Pacientes (Conjuntos de dados utilizado para o desenvolvimento)
+
+|- Predição Cancêr.ipynb (Notebook que obtém as analises e o modelo criado)
  
