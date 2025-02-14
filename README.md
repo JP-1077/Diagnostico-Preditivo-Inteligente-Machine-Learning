@@ -9,9 +9,13 @@ Este projeto utiliza **Machine Learning** para a predição de câncer com base 
 ---
 
  ## 📌**Objetivo do Projeto**
- ✅ Aplicar técnicas de pré - processamento, com o intuito de deixar os dados prontos para o desenvolvimento e implementação do modelo. 
+ 
+ ✅ Aplicar técnicas de pré - processamento, com o intuito de deixar os dados prontos para o desenvolvimento e implementação do modelo.
+ 
  ✅ Realizar análise exploratória dos dados para identificar padrões nos dados e correlações entre as features presentes no conjuntos de dados.
+ 
  ✅ Construir um modelo de Random Forest para predição do câncer.
+ 
  ✅ Avaliar o desempenho do modelo e interpretar os resultados.
  
  ---
